@@ -1,0 +1,25 @@
+{
+  "name": "api-mock-server",
+  "version": "1.0.10",
+  "description": "基于mockjs的http API测试服务器",
+  "main": "main.js",
+  "bin": {
+    "api-mock-server": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "co": "^4.6.0",
+    "koa": "^0.21.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-router": "^5.1.2",
+    "md5": "^2.0.0",
+    "mockjs": "^0.1.10",
+    "promise": "^7.0.4",
+    "svn": "^0.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
